@@ -1,0 +1,20 @@
+{
+  "manifest_version": 2,
+  "name": "tabbit",
+  "description": "the ultimate tab manager",
+  "version": "1.0.0",
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html"
+    },
+  "background": {
+    "persistent": false,
+    "scripts": ["background.js"]
+    },
+  "permissions": [
+    "tabs",
+    "bookmarks",
+    "activeTab",
+    "storage"
+  ]
+}
